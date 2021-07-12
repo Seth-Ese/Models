@@ -26,7 +26,7 @@ app.get('/Products/:productID', (req,res)=>{
     app.post('/Products',(req,res)=>{
         let incomingProducts = req.body
         let product = {
-            id:incomingProducts.id,
+            id:Products.length + 1,
             name: incomingProducts.name,
             description: incomingProducts.description,
             image: incomingProducts.image,
