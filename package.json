@@ -1,0 +1,24 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Products.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seth-Ese/Models.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seth-Ese/Models/issues"
+  },
+  "homepage": "https://github.com/Seth-Ese/Models#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
